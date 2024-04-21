@@ -255,7 +255,7 @@ uint8_t* send_and_receive_dns(uint16_t* packet, int len) {
 
 
 int main() {
-    char url[254] = "www.northeastern.edu";
+    char url[254] = "www.google.com";
     /**
      * The domain you want to resolve is stored in url.
      * The length of the entire domain must be less than 254. 
